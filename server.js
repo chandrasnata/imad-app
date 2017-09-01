@@ -21,7 +21,7 @@ var articleone = {
         This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.
     </p>`
 };
-function createTemplate(data){
+function createTemplate (data){
 var title = data.title;
 var date = data.date;
 var heading = data.heading;
