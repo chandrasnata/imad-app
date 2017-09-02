@@ -22,7 +22,7 @@ var articles = {
         This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.
     </p>`
 },
-    'article-two': {
+       'article-two': {
        title:'Article Two 2 CHANDRASNATA DASH',
        heading:'Article Two',
        date:'Aug 31,2017',
@@ -31,7 +31,7 @@ var articles = {
            This is the content for my second article.
        </p>`
       },
-    'article-three': {
+        'article-three': {
          title:'Article Three 3 CHANDRASNATA DASH',
          heading:'Article Three',
          date:'Aug 31,2017',
