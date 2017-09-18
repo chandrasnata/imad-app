@@ -5,6 +5,7 @@ button.onClick = function () {
     
     //Create a request object
     var request = new XMLHttpRequest();
+    
     //Capture the response and store it in a variable
     request.onreadystatechange = function(){
         if(request.readyState === XMLHttpRequest.DONE){
@@ -17,6 +18,7 @@ button.onClick = function () {
         }
         //Not done yet
     };
+    
     //Make the request
     request.open('GET','http://chandrasnatadash.imad.hasura-app.io/counter', true);
     request.send(null);
